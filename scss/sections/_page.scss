@@ -1,0 +1,23 @@
+.wcl-page {
+    &.mod-default {
+        margin-top: 100px;
+    }
+
+    .page {
+        &-title {
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 991px) {
+        &.mod-default {
+            margin-top: 50px;
+        }
+
+        .page {
+            &-title {
+                font-size: 32px;
+            }
+        }
+    }
+}

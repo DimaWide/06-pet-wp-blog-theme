@@ -1,0 +1,176 @@
+// .single-post .wcl-page-content {
+//     background: #ffe07e;
+// }
+
+
+// .wcl-single {
+//     .data {
+//         &-nav {
+//             display: flex;
+//             justify-content: space-between;
+//             column-gap: 100px;
+//             margin-top: 40px;
+
+//             &-item {
+//                 line-height: 1.2;
+//             }
+
+//             &-link {
+//                 display: flex;
+//                 column-gap: 10px;
+//                 align-items: center;
+//                 text-decoration: none;
+//                 color: #000000;
+//                 @include link_hover;
+
+//                 &-label {
+//                     display: none;
+//                 }
+
+//                 &.mod-prev {
+//                     svg {
+//                         transform: scale(-1, 1);
+//                     }
+//                 }
+
+//                 &.mod-next {
+//                     text-align: right;
+//                 }
+
+//                 svg {
+//                     width: 48px;
+//                     min-width: 48px;
+//                 }
+//             }
+//         }
+
+//         &-share {
+//             display: flex;
+//             align-items: center;
+//             column-gap: 12px;
+//             margin-top: 40px;
+//             margin-bottom: 40px;
+
+//             &-label {
+//                 font-size: 16px;
+//             }
+
+//             &-links {
+//                 @include wcl-reset-list;
+//                 display: flex;
+//                 align-items: center;
+//                 column-gap: 12px;
+
+//                 &-item {
+//                     line-height: 1;
+
+//                     svg {
+//                         width: 16px;
+//                         height: auto;
+//                         fill: #000;
+//                         stroke: #000
+//                     }
+
+//                     a {
+//                         display: flex;
+//                         align-items: center;
+//                         justify-content: center;
+//                         line-height: 1;
+//                         text-decoration: none;
+//                         @include link_hover(0.6);
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     @media (max-width: 1400px) {
+//         .data {
+//             &-container {
+//                 padding: 0 50px;
+//             }
+//         }
+//     }
+
+//     @media (max-width: 991px) {
+//         .data {
+//             &-container {
+//                 padding: 0 25px;
+//             }
+//         }
+//     }
+
+//     @media (max-width: 767px) {
+//         margin-top: 30px;
+
+//         .data {
+//             &-container {
+//                 padding: 0 20px;
+//             }
+
+//             &-title {
+//                 font-size: 26px;
+//             }
+
+//             &-title {
+//                 font-size: 26px;
+//                 margin-bottom: 25px;
+//                 max-width: 400px;
+//             }
+
+//             &-img {
+//                 height: auto;
+//                 aspect-ratio: 16 / 9;
+//                 max-width: 100%;
+//             }
+
+//             &-b1 {
+//                 margin-bottom: 30px;
+
+//                 &-row {
+//                     flex-wrap: wrap;
+//                 }
+
+//                 &-col {
+//                     width: 100%;
+//                 }
+//             }
+
+//             &-nav {
+//                 column-gap: 50px;
+
+//                 &-link {
+//                     &-title {
+//                         display: none;
+//                     }
+
+//                     &-label {
+//                         display: block;
+//                     }
+
+//                     svg {
+//                         min-width: unset;
+//                         width: 36px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     @media (max-width: 575px) {
+
+//         .data {
+//             &-title {
+//                 font-size: 24px;
+//             }
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+

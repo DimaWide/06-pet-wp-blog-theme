@@ -1,0 +1,176 @@
+.acf-5-contact-us {
+    // padding: 40px 20px;
+    // background-color: #f9f9f9;
+    // border-radius: 8px;
+    // box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    // margin-top: 40px;
+    // margin-top: 100px;
+    // margin-bottom: 100px;
+    text-align: center;
+
+    .data {
+        &-row {
+            display: flex;
+            justify-content: center;
+            margin: 0 -25px;
+        }
+
+        &-col {
+            padding: 0 25px;
+            width: 50%;
+        }
+
+        &-b1 {
+            background: #fff;
+            padding: 50px 30px;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, .2);
+        }
+    }
+
+    .data-title {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .data-subtitle {
+        font-size: 16px;
+        color: #666;
+
+        max-width: 380px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .data-form {
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        //    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 2px;
+        margin: 0 auto;
+    }
+
+    .newsletter-form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 400px;
+
+        input[type="email"] {
+            font-family: "Ubuntu", serif;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #bbb;
+            background-color: rgba(0, 0, 0, .2);
+            border-radius: 4px;
+            background-color: #fff;
+            color: #333;
+            transition: border-color 0.3s ease;
+
+            &:focus {
+                border-color: rgba(0, 0, 0, .5);
+                outline: none;
+            }
+        }
+
+        button {
+            font-family: "Ubuntu", serif;
+            width: 100%;
+            padding: 12px 20px;
+            background-color: #3d65ff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #0034fd;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .checkbox-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 10px;
+
+        input[type=checkbox] {
+            position: absolute;
+            opacity: 0;
+            left: 3px;
+            top: 8px;
+        }
+
+        label {
+            position: relative;
+            padding-left: 27px;
+            cursor: pointer;
+            line-height: 1.2;
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 16px;
+                height: 16px;
+                border: 1px solid #a3a3a3;
+                border-radius: 3px;
+                background-color: #fff;
+                // transition: background-color 0.3s ease, border-color 0.3s ease;
+            }
+
+            &::after {
+                content: "✔";
+                position: absolute;
+                left: 4px;
+                top: 1px;
+                color: #fff;
+                font-size: 13px;
+                display: none;
+            }
+        }
+
+        input[type=checkbox]:checked+label {
+            &::before {
+                background-color: #3d65ff;
+                border-color: #3d65ff;
+            }
+
+            &::after {
+                display: block;
+            }
+        }
+    }
+
+    .google-map-container {
+        margin-top: 40px;
+        text-align: center;
+
+        h3 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border-radius: 8px;
+            border: none;
+        }
+    }
+}

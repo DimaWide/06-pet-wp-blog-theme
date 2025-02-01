@@ -1,0 +1,24 @@
+.cmp-button-two{
+    font-size: 16px;
+    font-weight: 500;
+    min-width: 115px;
+    min-height: 40px;
+
+    padding: 5px 15px;
+    background-color: #fff;
+    color: #222;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid #222;
+    // @include link_hover;
+    text-align: center;
+    border: 1px solid #222;
+    border-radius: 2px;
+
+    &:hover {
+        background-color: #222;
+        color: #fff;
+    }
+}

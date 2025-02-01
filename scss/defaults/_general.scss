@@ -1,0 +1,304 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    // font-family: 'Sour Gummy', sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    // font-family: Poppins;
+    // font-family: Afacad;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Afacad';
+
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+    position: relative;
+    //   background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    // background: #ffe07e;
+
+    &.admin-bar {
+        #wcl-main-header {
+            top: 32px !important;
+
+            @media only screen and (max-width: 782px) {
+                top: 46px !important;
+            }
+
+            @media only screen and (max-width: 600px) {
+                top: 0 !important;
+            }
+        }
+    }
+}
+
+html.overflow-hidden,
+body.overflow-hidden {
+    overflow: hidden;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+p,
+ul,
+ol {
+    margin-bottom: 20px;
+}
+
+p:last-child,
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+
+input,
+textarea {
+    border-radius: 0; // Prevent IOS add border-radius by default to all input elements
+}
+
+a {
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+span {
+    display: inline-block;
+}
+
+.wcl-page-content {
+    // padding: 50px 0;
+    // background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    // background: #ffe07e;
+    // padding-bottom: 150px;
+}
+
+// .wcl-page {
+//     position: relative;
+//     z-index: 1;
+// }
+
+.wcl-body-inner {
+    // display: -webkit-box;
+    // display: -ms-flexbox;
+    // display: flex;
+    // min-height: 100vh;
+    // overflow: hidden;
+    // -webkit-box-orient: vertical;
+    // -webkit-box-direction: normal;
+    // -ms-flex-direction: column;
+    // flex-direction: column;
+    // justify-content: space-between
+}
+
+.wcl-section {
+    position: relative;
+}
+
+.wcl-container {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    @media only screen and (max-width: 768px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+/** Heading */
+
+h1,
+.wcl-h1,
+h2,
+.wcl-h2,
+h3,
+.wcl-h3,
+h4,
+.wcl-h4,
+h5,
+.wcl-h5,
+h6,
+.wcl-h6 {
+    font-weight: 700;
+    line-height: 1.5;
+    // margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h1,
+.wcl-h1 {
+    font-size: 40px;
+}
+
+h2,
+.wcl-h2 {
+    font-size: 34px;
+}
+
+h3,
+.wcl-h3 {
+    font-size: 30px;
+}
+
+h4,
+.wcl-h4 {
+    font-size: 28px;
+}
+
+h5,
+.wcl-h5 {
+    font-size: 24px;
+}
+
+h6,
+.wcl-h6 {
+    font-size: 22px;
+}
+
+
+
+
+strong,
+b {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+a {
+    // STYLES OF ALL LINKS GOES HERE
+    &:focus{
+        outline: none;
+    }
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul,
+ol {
+    padding-left: 20px;
+}
+
+
+
+
+/** Form */
+.wcl-form {
+    position: relative;
+}
+
+.wcl-form.loading .wcl-preloader {
+    display: block;
+}
+
+.wcl-form.loading>*:not(.wcl-preloader) {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.wcl-form .wcl-message {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.wcl-form .wcl-preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 100px;
+}
+
+.wcl-message {
+    display: none;
+    font-size: 14px;
+}
+
+.wcl-message.show {
+    display: block;
+}
+
+.wcl-message.error {
+    // Change the color to the desired one
+    color: red;
+}
+
+.wcl-message.success {
+    // Change the color to the desired one
+    color: green;
+}
+
+
+
+
+
+/** CF7 */
+.wpcf7 form .wpcf7-response-output {
+    margin: 1em 0;
+    padding: 0;
+    color: #00a0d2;
+    border: none;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    color: #46b450;
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+    color: #dc3232;
+}
+
+.wpcf7 form.spam .wpcf7-response-output {
+    color: #f56e28;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output,
+.wpcf7 form.payment-required .wpcf7-response-output {
+    color: #dc3232;
+    border: none;
+}
+
+.wpcf7-not-valid-tip {
+    font-size: .8em;
+}
+
+.wpcf7-spinner {}
+
+
+@media (max-width: 991px) {
+    h2 {
+        font-size: 26px;
+    }
+}

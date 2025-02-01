@@ -1,0 +1,33 @@
+.wcl-page-content {
+    //padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+
+.home {
+    @media (max-width: 575px) {
+        .wcl-page-content {
+            margin-top: 40px;
+            margin-bottom: 80px;
+        }
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

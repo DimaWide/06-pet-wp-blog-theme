@@ -1,0 +1,13 @@
+
+
+.error404 .wcl-page-content{
+    padding: 0;
+}
+
+.single-post{
+    .wcl-page-content{
+        @media (max-width: 991px) {
+          margin-top: 35px;
+        }
+    }
+}
