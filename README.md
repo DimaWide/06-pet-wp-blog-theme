@@ -6,7 +6,7 @@
 
 **Ссылка на сайт:** [dw-web-dev.online](https://dw-web-dev.online)
 
-Скриншот: [Главная страница](http://github.com/DimaWide/06-pet-wp-blog-theme/blob/main/img/screencapture-dw-web-dev-online.jpg) | [Мобильный вид](http://github.com/DimaWide/06-pet-wp-blog-theme/blob/main/img/screencapture-dw-web-dev-online-mobile.jpg)
+Скриншот: [Главная страница](https://github.com/DimaWide/06-pet-wp-blog-theme/blob/main/img/screencapture-dw-web-dev-online.jpg) | [Мобильный вид](https://github.com/DimaWide/06-pet-wp-blog-theme/blob/main/img/screencapture-dw-web-dev-online-mobile.jpg)
 
 
-![Screenshot](http://github.com/DimaWide/06-pet-wp-blog-theme/blob/main/img/screencapture-dw-web-dev-online-1.jpg)
+![Screenshot](https://github.com/DimaWide/06-pet-wp-blog-theme/blob/main/img/screencapture-dw-web-dev-online-1.jpg)
